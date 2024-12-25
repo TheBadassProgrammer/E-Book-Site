@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://use.fontawesome.com/be1ba39dfe.js"></script>
+    <link rel="stylesheet" href="./css/product_style.css">
+    <title>Book Zone</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-right">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/products.html">Products</a></li>
+            <li><a href="/About.html">About</a></li>
+            <li><a href="/login.html">Login</a></li>
+            <li><a href="/Register.html">Create Account</a></li>
+        </div>
+    </nav>
+
+    
+
+    <div class="section-body">
+        <div class="vertical-nav">
+            <ul>
+                <h4>Category</h4>
+                <li><a href="#Adventure">Adventure</a></li>
+                <li><a href="#Thriller">Thriller</a></li>
+                <li><a href="#Romantic">Romantic</a></li>
+                <li><a href="#Comedy">Comedy</a></li>
+            </ul>
+        </div>
+
+        
+
+        <div class="gallery-main" style="margin-left:25%;padding:1px 16px;height:1000px;">
+
+            <div class="search-bar">
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search for books..."
+                    onkeyup="filterBooks()"
+                />
+            </div>
+            
+            <div class="Adventure" id="Adventure">
+                <h2>Adventure</h2>
+                <div class="gallery">
+                    <div class="image-holder">
+                        <a href="#">
+                            <img src="./images/Adv1.jfif" alt="Adventure Book 1">
+                        </a>
+                        <div class="desc">
+                            <button onclick="window.location.href='https://www.gutenberg.org/cache/epub/120/pg120-images.html';">Read Now</button>
+                        </div>
+                    </div>
+                    <div class="image-holder">
+                        <a href="#">
+                            <img src="./images/Adv2.jpg" alt="Adventure Book 2">
+                        </a>
+                        <div class="desc">
+                            <button onclick="window.location.href='https://www.gutenberg.org/cache/epub/1257/pg1257-images.html';">Read Now</button>
+                        </div>
+                    </div>
+                    <div class="image-holder">
+                        <a href="#">
+                            <img src="./images/Adv3.jpg" alt="Adventure Book 3">
+                        </a>
+                        <div class="desc">
+                            <button onclick="window.location.href='https://www.gutenberg.org/cache/epub/215/pg215-images.html';">Read Now</button>
+                        </div>
+                    </div>
+                    <div class="image-holder">
+                        <a href="#">
+                            <img src="./images/Adv4.jpg" alt="Adventure Book 4">
+                        </a>
+                        <div class="desc">
+                            <button onclick="window.location.href='https://www.gutenberg.org/cache/epub/95/pg95-images.html';">Read Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Thriller" id="Thriller">
+                <h2>Hinduism</h2>
+                <div class="gallery">
+                    <div class="image-holder">
+                        <a href="#">
+                            <img src="./images/th1.jpg" alt="Thriller Book 1">
+                        </a>
+                        <div class="desc">
+                            <button onclick="window.location.href='https://www.gutenberg.org/cache/epub/7452/pg7452-images.html';">Read Now</button>
+                        </div>
+                    </div>
+                    <div class="image-holder">
+                        <a href="#">
+                            <img src="./images/th2.jpg" alt="Thriller Book 2">
+                        </a>
+                        <div class="desc">
+                            <button onclick="window.location.href='https://www.gutenberg.org/cache/epub/2526/pg2526-images.html';">Read Now</button>
+                        </div>
+                    </div>
+                    <div class="image-holder">
+                        <a href="#">
+                            <img src="./images/th3.jpg" alt="Thriller Book 3">
+                        </a>
+                        <div class="desc">
+                            <button onclick="window.location.href='https://www.gutenberg.org/cache/epub/2388/pg2388-images.html';">Read Now</button>
+                        </div>
+                    </div>
+                    <div class="image-holder">
+                        <a href="#">
+                            <img src="./images/th4.jpg" alt="Thriller Book 4">
+                        </a>
+                        <div class="desc">
+                            <button onclick="window.location.href='https://www.gutenberg.org/cache/epub/11310/pg11310-images.html';">Read Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Romantic" id="Romantic">
+                <h2>Technology</h2>
+                <div class="gallery">
+                    <div class="image-holder">
+                        <a href="#">
+                            <img src="./images/r1.jpg" alt="Technology Book 1">
+                        </a>
+                        <div class="desc">
+                            <button onclick="window.location.href='https://www.gutenberg.org/cache/epub/28553/pg28553-images.html';">Read Now</button>
+                        </div>
+                    </div>
+                    <div class="image-holder">
+                        <a href="#">
+                            <img src="./images/r2.jpg" alt="Technology Book 2">
+                        </a>
+                        <div class="desc">
+                            <button onclick="window.location.href='https://www.gutenberg.org/cache/epub/63207/pg63207-images.html';">Read Now</button>
+                        </div>
+                    </div>
+                    <div class="image-holder">
+                        <a href="#">
+                            <img src="./images/r3.jpg" alt="Technology Book 3">
+                        </a>
+                        <div class="desc">
+                            <button onclick="window.location.href='https://www.gutenberg.org/cache/epub/23581/pg23581-images.html';">Read Now</button>
+                        </div>
+                    </div>
+                    <div class="image-holder">
+                        <a href="#">
+                            <img src="./images/r4.jpg" alt="Technology Book 4">
+                        </a>
+                        <div class="desc">
+                            <button onclick="window.location.href='https://www.gutenberg.org/cache/epub/41111/pg41111-images.html';">Read Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Comedy" id="Comedy">
+                <h2>Comedy</h2>
+                <div class="gallery">
+                    <div class="image-holder">
+                        <a href="#">
+                            <img src="./images/c1.jfif" alt="Comedy Book 1">
+                        </a>
+                        <div class="desc">
+                            <button onclick="window.location.href='https://example.com/read/Comedy1';">Read Now</button>
+                        </div>
+                    </div>
+                    <div class="image-holder">
+                        <a href="#">
+                            <img src="./images/c2.jfif" alt="Comedy Book 2">
+                        </a>
+                        <div class="desc">
+                            <button onclick="window.location.href='https://example.com/read/Comedy2';">Read Now</button>
+                        </div>
+                    </div>
+                    <div class="image-holder">
+                        <a href="#">
+                            <img src="./images/c3.jfif" alt="Comedy Book 3">
+                        </a>
+                        <div class="desc">
+                            <button onclick="window.location.href='https://example.com/read/Comedy3';">Read Now</button>
+                        </div>
+                    </div>
+                    <div class="image-holder">
+                        <a href="#">
+                            <img src="./images/c4.jfif" alt="Comedy Book 4">
+                        </a>
+                        <div class="desc">
+                            <button onclick="window.location.href='https://example.com/read/Comedy4';">Read Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <a href="/index.html" class="btn">Back <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+    </div>
+
+    <script>
+        function filterBooks() {
+            const input = document.getElementById('searchInput').value.toLowerCase();
+            const books = document.querySelectorAll('.image-holder');
+    
+            books.forEach(book => {
+                const title = book.querySelector('img').alt.toLowerCase();
+                if (title.includes(input)) {
+                    book.style.display = 'block';
+                } else {
+                    book.style.display = 'none';
+                }
+            });
+        }
+    </script>
+    
+</body>
+</html>
